@@ -1,0 +1,9 @@
+version: '2.2'
+services:
+  spring-crude-app:
+    container_name: spring-crude-app
+    image: zorbaskyriakos/spring-crude-app:latest
+    volumes:
+      - ./data:/opt/data
+    ports:
+      - "8080:8080"

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springcoffeeshop:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springcoffeeshop</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="crude-app-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springcoffeeshop:war exploded" />
+    </root>
+  </artifact>
+</component>
