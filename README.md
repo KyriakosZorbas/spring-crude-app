@@ -87,3 +87,7 @@ CRUD-based services can be usefull , but there are some things that need to be c
 1) The CRUD-based services can include a lot of unnecessary methods.The premise is that if you have a data table, you'll require a general set of methods to manipulate the data in it. We could add some simple retrieval techniques to allow sorting, searching, and listing while we're at it.
 
 2) This generic entity management technique omits any important business logic connected with data entities. CRUD-based repositories are considered "useful" because they serve as "building blocks" for system functionality that is wrapped elsewhere. Without proper discipline this can encourage business logic to become fragmented as new systems or modules leverage the CRUD based module to create conflicting rules.
+
+# License
+
+GNU General Public License v3.0, see [LICENSE](https://github.com/KyriakosZorbas/spring-crude-app/blob/main/LICENSE).
