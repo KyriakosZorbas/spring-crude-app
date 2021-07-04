@@ -78,11 +78,11 @@ The Docker image is in [Dockerhub](https://hub.docker.com/repository/docker/zorb
 
 # Authentication
 
-If we want to add authentication we can use a third-party tool named [Auth0](https://auth0.com/). Auth0 is an easy to implement, adaptable authentication and authorization platform. Auth0 supports multiple protocols, one of the most suitable for this app's case would be **OAuth 2.0** which allows a user to grant limited access to their resources on one site to another site, without having to expose their credentials
+If we want to add authentication we can use a third-party tool named [Auth0](https://auth0.com/). Auth0 is an easy to implement, adaptable authentication and authorization platform. Auth0 supports multiple protocols, one of the most suitable for this app's case would be **OAuth 2.0** which allows a user to grant limited access to their resources on one site to another site, without having to expose their credentials.
 
 # Considerations
 
-CRUD-based services can be usefull , but there are some things that need to be considerned 
+CRUD-based services can be usefull , but there are some things that need to be considered.
 
 1) The CRUD-based services can include a lot of unnecessary methods.The premise is that if you have a data table, you'll require a general set of methods to manipulate the data in it. We could add some simple retrieval techniques to allow sorting, searching, and listing while we're at it.
 
